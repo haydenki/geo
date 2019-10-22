@@ -1,0 +1,123 @@
+ <!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Landform Region Comparison</title>
+		<style type="text/css">
+		
+		body{
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			height: 100%; 
+			max-height: 100%; 
+			font-family:Sans-serif;
+			line-height: 1.5em;
+		}
+		
+		#nav{
+			position: absolute;
+			top: 0;
+			bottom: 0; 
+			left: 0;
+			width: 230px; /* Width of navigation frame */
+			height: 100%;
+			overflow: hidden; /* Disables scrollbars on the navigation frame. To enable scrollbars, change "hidden" to "scroll" */
+			background: #eee;
+		}
+		
+		main{
+			position: fixed;
+			top: 0; 
+			left: 230px; /* Set this to the width of the navigation frame */
+			right: 0;
+			bottom: 0;
+			overflow: auto; 
+			background: #fff;
+		}
+		
+		.innertube{
+			margin: 15px; /* Provides padding for the content */
+		}
+		
+		p {
+			color: #555;
+		}
+
+		nav ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+		
+		nav ul a {
+			color: darkgreen;
+			text-decoration: none;
+		}
+				
+		/*IE6 fix*/
+		* html body{
+			padding: 0 0 0 230px; /* Set the last value to the width of the navigation frame */
+		}
+		
+		* html main{ 
+			height: 100%; 
+			width: 100%; 
+		}
+
+		table.GeneratedTable {
+		width:100%;
+		background-color:#FFFFFF;
+		border-collapse:collapse;border-width:1px;
+		border-color:#000000;
+		border-style:solid;
+		color:#000000;
+		}
+
+		table.GeneratedTable td, table.GeneratedTable th {
+		border-width:1px;
+		border-color:#000000;
+		border-style:solid;
+		padding:3px;
+		}
+
+table.GeneratedTable thead {
+background-color:#CCFF99;
+}
+		
+		</style>
+	
+	</head>
+	
+	<body>		
+				
+		<main>
+			<div class="innertube">
+				<h1>Images</h1>
+				<h2><i><u>Western Cordillera</u></i></h2>
+				<img src="1.jpg" width="200" height="200" style="border:5px;">
+				<img src="2.jpg" width="200" height="200" style="border:5px;">
+				<img src="3.jpg" width="200" height="200" style="border:5px;">
+				<img src="4.jpg" width="200" height="200" style="border:5px;">
+				<h2><i><u>Interior Plains</u></i></h2>
+				<img src="5.jpg" width="200" height="200" style="border:5px;">
+				<img src="6.jpg" width="200" height="200" style="border:5px;">
+				<img src="7.jpg" width="200" height="200" style="border:5px;">
+				<img src="8.jpg" width="200" height="200" style="border:5px;">
+			</div>
+
+		</main>
+	
+		<nav id="nav">
+			<div class="innertube">
+			
+			<h3>Table of Contents</h3>
+			<ul>
+				<li><a href="index.html">Overview</a></li>
+				<li><a href="#">Images</a></li>
+			</ul>
+		</nav>
+	
+	</body>
+</html>
+
